@@ -7,6 +7,15 @@ padding: 0;
 box-sizing: border-box;
 font-family: Inter;
 }
+
+.container{
+max-width: 1100px;
+margin: auto;
+}
+.flex-between{
+display: flex;
+justify-content: space-between;
+}
 a{
 text-decoration: none;
 }
@@ -171,7 +180,7 @@ width: 32px;
 /* web3 section starts here  */
 .web3{
 width: 100%;
-padding: 40px;
+padding: 40px 0;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -192,8 +201,19 @@ background-color: #5129AD;
     color: #5129AD;
     font-size: 24px;
     }
-.web3 .process-one{
-    max-width: 1100px;
+.web3 .process-one {
+ margin: 30px 0;
+ padding: 40px;
+    width: 100%;
+background-color: #F5F5F5;
+}
+.web3 .process-one .process-steps {
 display: flex;
-justify-content: space-between;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 25px;
+   }
+.process-steps img{
+width: 30px;
 }
